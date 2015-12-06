@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+#'context-menu':
+#  'atom-text-editor': [
+#    {
+#      'label': 'Toggle ashiato45-atom'
+#      'command': 'ashiato45-atom:toggle'
+#    }
+#  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ashiato45-atom'
+      'submenu': [
+        {
+          'label': 'callnkf'
+          'command': 'ashiato45-atom:callnkf'
+        }
+      ]
+    ]
+  }
+]
